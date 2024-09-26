@@ -23,16 +23,16 @@ for (int i = 0; i < 2; i++)
         }
     }
 
-        Console.Write("Digite o tipo do herói (guerreiro, mago, monge, ninja): ");
-        string? tipo = Console.ReadLine(); 
+    Console.Write("Digite o tipo do herói (guerreiro, mago, monge, ninja): ");
+    string? tipo = Console.ReadLine(); 
 
-        Heroi heroi = new Heroi
-        {
-            Nome = nome,
-            Idade = idade,
-            Tipo = tipo 
-        };
+    Heroi heroi = new Heroi
+    {
+        Nome = nome,
+        Idade = idade,
+        Tipo = tipo 
+    };
 
-        heroi.Atacar();
+    heroi.Atacar();
 }
         
